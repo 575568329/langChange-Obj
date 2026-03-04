@@ -9,7 +9,7 @@
  * - 如何用 LLMChain 组合多个步骤
  */
 
-import { ChatZhipuAI } from "@langchain/community/chat_models/zhipu";
+import { ChatZhipuAI } from "@langchain/community/chat_models/zhipuai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { RunnableSequence } from "@langchain/core/runnables";

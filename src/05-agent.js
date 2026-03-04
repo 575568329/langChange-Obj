@@ -9,7 +9,7 @@
  * - 如何让 AI 自主决定调用哪个工具
  */
 
-import { ChatZhipuAI } from "@langchain/community/chat_models/zhipu";
+import { ChatZhipuAI } from "@langchain/community/chat_models/zhipuai";
 import { AgentExecutor, createOpenAIFunctionsAgent } from "langchain/agents";
 import { pull } from "langchain/hub";
 import { DynamicTool } from "@langchain/core/tools";

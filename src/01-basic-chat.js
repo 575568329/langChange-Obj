@@ -9,7 +9,7 @@
  * - 如何设置模型参数
  */
 
-import { ChatZhipuAI } from "@langchain/community/chat_models/zhipu";
+import { ChatZhipuAI } from "@langchain/community/chat_models/zhipuai";
 import * as dotenv from "dotenv";
 
 // 加载环境变量

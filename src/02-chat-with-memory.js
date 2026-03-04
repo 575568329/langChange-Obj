@@ -9,7 +9,7 @@
  * - 如何使用 ConversationChain 实现多轮对话
  */
 
-import { ChatZhipuAI } from "@langchain/community/chat_models/zhipu";
+import { ChatZhipuAI } from "@langchain/community/chat_models/zhipuai";
 import { BufferMemory } from "langchain/memory";
 import { ConversationChain } from "langchain/chains";
 import * as dotenv from "dotenv";

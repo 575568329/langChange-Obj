@@ -9,7 +9,7 @@
  * - 如何用 pipe 组合模板和模型
  */
 
-import { ChatZhipuAI } from "@langchain/community/chat_models/zhipu";
+import { ChatZhipuAI } from "@langchain/community/chat_models/zhipuai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import * as dotenv from "dotenv";
