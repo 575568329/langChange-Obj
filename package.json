@@ -1,0 +1,24 @@
+{
+  "name": "langchain-demo",
+  "version": "1.0.0",
+  "description": "LangChain 入门项目 - 使用智谱 GLM 模型",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "chat": "node src/01-basic-chat.js",
+    "memory": "node src/02-chat-with-memory.js",
+    "prompt": "node src/03-prompt-template.js",
+    "chain": "node src/04-chain.js",
+    "agent": "node src/05-agent.js"
+  },
+  "keywords": ["langchain", "ai", "glm", "chatbot"],
+  "author": "码农",
+  "license": "MIT",
+  "dependencies": {
+    "langchain": "^0.3.0",
+    "@langchain/community": "^0.3.0",
+    "@langchain/core": "^0.3.0",
+    "dotenv": "^16.3.1"
+  }
+}
